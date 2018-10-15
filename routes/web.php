@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('pages.index');
+    return view('pages.home');
 
 
 });
@@ -25,15 +25,6 @@ Route::get('/About', function () {
 });
 
 
-Route::get('/Contact', function () {
-    return view('pages.contact');
 
 
-});
 
-
-Route::post('/', function () {
-    return view('welcome');
-
-
-});
